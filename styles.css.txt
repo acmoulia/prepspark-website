@@ -1,0 +1,99 @@
+/* styles.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background: #f8f9fa;
+  color: #333;
+}
+
+header {
+  background: #004080;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.logo {
+  height: 60px;
+  margin-bottom: 10px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 0;
+  margin: 10px 0 0 0;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero {
+  background: url('hero-image.jpg') no-repeat center center/cover;
+  color: white;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.cta {
+  display: inline-block;
+  background: #007bff;
+  color: white;
+  padding: 10px 20px;
+  margin-top: 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+section {
+  padding: 40px 20px;
+}
+
+h2 {
+  text-align: center;
+  color: #004080;
+}
+
+ul {
+  max-width: 800px;
+  margin: auto;
+  padding: 0;
+  list-style-type: none;
+}
+
+ul li {
+  margin: 20px 0;
+  padding: 20px;
+  background: white;
+  border-radius: 5px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+article {
+  background: white;
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 700px;
+  border-radius: 5px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+dl dt {
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+}
